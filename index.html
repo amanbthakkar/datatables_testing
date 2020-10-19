@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <table id="example" class="display compact order-column">
+                        <thead>
+                            <tr>
+                                <th>ICG Ref</th>
+                                <th>Direction</th>
+                                <th>MT</th>
+                                <th>Sender BIC</th>
+                                <th>Receiver BIC</th>
+                                <th>Gateway</th>
+                                <th>System (Sending/Receiving)</th>
+                                <th>TRN #</th>
+                                <th>Message Status</th>
+                                <th>Value Date</th>
+                                <th>Amount</th>
+                                <th>Currency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                               <tr>
+                                    <td>ICG REF</td>
+                                    <td>Direction</td>
+                                    <td>MT</td>
+                                    <td>Sender BIC</td>
+                                    <td>Receiver BIC</td>
+                                    <td>Gateway</td>
+                                    <td>System (Sending/Receiving)</td>
+                                    <td>TRN #</td>
+                                    <td>Message Status</td>
+                                    <td>Value Date</td>
+                                    <td>Amount</td>
+                                    <td>Currency</td>
+                               </tr>
+                               <tr>
+                                    <td>ICG REF</td>
+                                    <td>Direction</td>
+                                    <td>MT</td>
+                                    <td>Sender BIC</td>
+                                    <td>Receiver BIC</td>
+                                    <td>Gateway</td>
+                                    <td>System (Sending/Receiving)</td>
+                                    <td>TRN #</td>
+                                    <td>Message Status</td>
+                                    <td>Value Date</td>
+                                    <td>Amount</td>
+                                    <td>Currency</td>
+                               </tr>
+                               <tr>
+                                    <td>ICG REF</td>
+                                    <td>Direction</td>
+                                    <td>MT</td>
+                                    <td>Sender BIC</td>
+                                    <td>Receiver BIC</td>
+                                    <td>Gateway</td>
+                                    <td>System (Sending/Receiving)</td>
+                                    <td>TRN #</td>
+                                    <td>Message Status</td>
+                                    <td>Value Date</td>
+                                    <td>Amount</td>
+                                    <td>Currency</td>
+                               </tr>
+                               <tr>
+                                    <td>ICG REF</td>
+                                    <td>Direction</td>
+                                    <td>MT</td>
+                                    <td>Sender BIC</td>
+                                    <td>Receiver BIC</td>
+                                    <td>Gateway</td>
+                                    <td>System (Sending/Receiving)</td>
+                                    <td>TRN #</td>
+                                    <td>Message Status</td>
+                                    <td>Value Date</td>
+                                    <td>Amount</td>
+                                    <td>Currency</td>
+                               </tr>
+                               <tr>
+                                    <td>ICG REF</td>
+                                    <td>Direction</td>
+                                    <td>MT</td>
+                                    <td>Sender BIC</td>
+                                    <td>Receiver BIC</td>
+                                    <td>Gateway</td>
+                                    <td>System (Sending/Receiving)</td>
+                                    <td>TRN #</td>
+                                    <td>Message Status</td>
+                                    <td>Value Date</td>
+                                    <td>Amount</td>
+                                    <td>Currency</td>
+                               </tr>
+                                
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>ICG Ref</th>
+                                <th>Direction</th>
+                                <th>MT</th>
+                                <th>Sender BIC</th>
+                                <th>Receiver BIC</th>
+                                <th>Gateway</th>
+                                <th>System (Sending/Receiving)</th>
+                                <th>TRN #</th>
+                                <th>Message Status</th>
+                                <th>Value Date</th>
+                                <th>Amount</th>
+                                <th>Currency</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+        <script type="text/javascript" charset="utf8" src="/node_modules/datatables.net-dt/js/dataTables.dataTables.js"></script>
+        <script>
+            
+            var data = [
+                ["1235", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"],
+                ["1234", "O", "MT444", "BARCXXX222", "CDELXXX555", "SMS", "FISS", "TRN123456", "Held - In Review (Operations)", "20201010", "251.05", "HKD"]
+            ];
+            
+            
+            $(document).ready(function() {
+                $('#example').DataTable( {
+                    data: data,
+                    scrollX: 250,
+                    scrollY: true,
+                    initComplete: function () {
+                        var i=0;
+                        this.api().columns().every( function () {
+                            var column = this;
+//                            console.log(this);
+                            if((i++)%2 == 0){
+                                var select = $('<select><option value=""></option></select>')
+                                .appendTo( $(column.footer()).empty() )
+                                .on( 'change', function () {
+                                    var val = $.fn.dataTable.util.escapeRegex(
+                                        $(this).val()
+                                    );
+
+                                    column
+                                        .search( val ? '^'+val+'$' : '', true, false )
+                                        .draw();
+                                } );
+
+                            column.data().unique().sort().each( function ( d, j ) {
+                                select.append( '<option value="'+d+'">'+d+'</option>' )
+                            } );
+                            }
+                            
+                        } );
+                    }
+                } );
+            } );
+        </script>
+        
+    </body>
+</html>
